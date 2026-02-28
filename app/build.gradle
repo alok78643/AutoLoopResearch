@@ -1,8 +1,8 @@
 plugins {
-    id 'org.jetbrains.kotlin.android' // Kotlin plugin
+    id 'org.jetbrains.kotlin.android'
 }
 
-apply plugin: 'com.android.application'  // Android plugin (classic style)
+apply plugin: 'com.android.application'
 
 android {
     namespace 'com.example.autoloop'
