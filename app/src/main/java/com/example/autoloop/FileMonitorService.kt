@@ -41,4 +41,11 @@ class FileMonitorService : Service() {
             manager.createNotificationChannel(serviceChannel)
         }
     }
+}                "AutoLoopResearch Service",
+                NotificationManager.IMPORTANCE_DEFAULT
+            )
+            val manager = getSystemService(NotificationManager::class.java)
+            manager.createNotificationChannel(serviceChannel)
+        }
+    }
 }
